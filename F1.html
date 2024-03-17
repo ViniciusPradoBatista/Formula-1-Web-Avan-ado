@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="f1.css" type="text/css">
+    <script type="text/javascript" src="F1.js"></script>
+</head>
+
+<body>
+    <div class="pista">
+        <div id="car1" class="car"></div>
+        <div id="car2" class="car"></div>
+        <div id="car3" class="car"></div>
+        <div id="car4" class="car"></div>
+        <div id="car5" class="car"></div>
+    </div>
+    <div id="winner"></div>
+    <div id="result"></div>
+    <div id="player-info">
+        <p id="player-money">Player's Money: $100</p>
+        <p id="player-bet">Player's Bet: None</p>
+    </div>
+    <input type="number" id="bet-amount" min="5" max="100" placeholder="Enter bet amount ($5 - $100)">
+    <button onclick="placeBet(1)">Bet on Car 1</button>
+    <button onclick="placeBet(2)">Bet on Car 2</button>
+    <button onclick="placeBet(3)">Bet on Car 3</button>
+    <button onclick="placeBet(4)">Bet on Car 4</button>
+    <button onclick="placeBet(5)">Bet on Car 5</button>
+    <br>
+    <button onclick="startRace()">Start Race</button>
+    <button onclick="playAgain()">Play Again</button>
+</body>
+
+</html>

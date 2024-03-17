@@ -1,0 +1,55 @@
+.pista {
+  width: 1000px;
+  height: 500px;
+  background-color: lightseagreen;
+  position: relative;
+}
+
+.car {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+#car1 {
+  background-color: red;
+  top: 50px;
+}
+
+#car2 {
+  background-color: blue;
+  top: 150px;
+}
+
+#car3 {
+  background-color: black;
+  top: 250px;
+}
+
+#car4 {
+  background-color: purple;
+  top: 350px;
+}
+
+#car5 {
+  background-color: orange;
+  top: 450px;
+}
+
+#winner, #result, #player-info {
+  margin-top: 20px;
+}
+
+#player-info p {
+  margin: 5px 0;
+}
+
+#bet-amount {
+  margin-top: 10px;
+}
+
+button {
+  margin-right: 5px;
+}
+

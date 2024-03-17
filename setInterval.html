@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <h2>The setInterval() and clearInterval() Methods</h2>
+
+  <p id="demo"></p>
+
+  <button onclick="myStop()">Stop the time</button>
+
+  <script>
+    const myInterval = setInterval(myTimer, 50);
+    let posX = 0;
+
+    function myTimer() {
+      posX += Math.ceil(Math.random() * 5);
+      document.getElementById("demo").innerHTML = posX;
+    }
+
+    function myStop() {
+      clearInterval(myInterval);
+    }
+  </script>
+
+</body>
+
+</html>
